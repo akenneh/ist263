@@ -1,0 +1,45 @@
+h1{
+    color: #ff0000;
+    /* hex color requires the pound sign */
+    /*six digits starting with red,then green*/
+}
+/*these 3 selectors are pseudo selctors */
+/* colon separates the selector from its state */
+a:link {
+    color: #0f0
+}
+
+a:visited {
+    color: 0000ff;
+}
+
+a;hover {
+    color: #8000ff;
+    background-color: aquamarine;
+
+
+}
+.lookdifferent:hover{ color: #999;}
+/*above uses a class selector with psuedo state*/
+
+body{
+    background-color: cornsilk;
+}
+/*background color for the whole page */
+
+body{
+    background-image: url(../images/LI-Bug.svg.original.svg);
+    Background-size: 200px;
+    background-color: darkgrey;
+
+    /*background color for entire page*/
+    p {background-color: #ffffff;
+        padding: 20px;
+        /*space between content and egde of box*/
+        margin:50px;
+        /* space between the outside of the box and the rest of the content */
+        border: 5px solid #0000ff;
+        /* this is a combo value ^^ */
+        /*widthof your box content width plus border width x2
+        plus margin width x2,plus padding width x2 */
+}

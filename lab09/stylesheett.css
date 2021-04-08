@@ -8,6 +8,8 @@ p {
 
 h1 {color: #0d43e7}
 h2 {color: #56b3e993}
+.experience {max-width: 100%;}
+.section2 {flex-wrap: wrap;}
 
 a:link {color: #0a6dee}
 a:hover {color: #2364ddb7}

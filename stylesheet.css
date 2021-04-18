@@ -16,8 +16,8 @@ a:visited {
 a;hover {
     color: #8000ff;
     background-color: aquamarine;
-
-
+    a { color: #FF0000 }
+    a.one:link {color: #ff0000;}
 }
 .lookdifferent:hover{ color: #999;}
 /*above uses a class selector with psuedo state*/
